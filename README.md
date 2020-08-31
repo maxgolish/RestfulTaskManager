@@ -24,7 +24,7 @@ Examples of requests:
 
     $ curl localhost:8080/tasks/
     $ curl -v -X POST localhost:8080/tasks -H 'Content-Type:application/json' -d '{"description": "Add some tasks"}'
-    $ curl -X POST localhost:8080/tasks -H 'Content-type:application/json' -d '{"description": "Create API", "progress":"DONE}'
+    $ curl -X POST localhost:8080/tasks -H 'Content-type:application/json' -d '{"description": "Create API", "progress":"DONE"}'
     
 To complete the task:
 
