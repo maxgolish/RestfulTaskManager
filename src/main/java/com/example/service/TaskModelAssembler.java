@@ -1,13 +1,15 @@
-package com.example.entity;
+package com.example.service;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
+import com.example.model.Task;
+import com.example.model.TaskProgress;
 import com.example.web.TaskController;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class TaskModelAssembler implements RepresentationModelAssembler<Task, EntityModel<Task>> {
 
     @Override

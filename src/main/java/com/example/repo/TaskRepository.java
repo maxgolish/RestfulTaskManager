@@ -1,7 +1,7 @@
 package com.example.repo;
 
-import com.example.entity.Task;
-import com.example.entity.TaskProgress;
+import com.example.model.Task;
+import com.example.model.TaskProgress;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
